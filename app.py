@@ -138,7 +138,7 @@ Preencha TODOS os campos de ajuda E de correcao.
 """
     
     response = client.models.generate_content(
-        model="gemini-3-flash-preview",  # ✅ Mantido como você pediu
+        model="gemini-3.5-flash",  # ✅ Mantido como você pediu
         contents=conteudo_prompt,
         config=types.GenerateContentConfig(
             system_instruction=SYSTEM_INSTRUCTION,
